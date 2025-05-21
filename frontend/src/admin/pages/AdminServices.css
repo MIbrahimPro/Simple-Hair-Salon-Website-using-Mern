@@ -1,0 +1,54 @@
+/* src/pages/AdminServices.css */
+
+.admin-service-card {
+  border: none;
+  overflow: hidden;
+  transition: transform 0.2s ease;
+}
+.admin-service-card:hover {
+  transform: translateY(-4px) scale(1.02);
+}
+
+.admin-service-desc {
+  flex-grow: 0;
+  flex-shrink: 0;
+  height: 3em;
+  overflow: hidden;
+}
+
+/* ImageCompare styles (same as user side) */
+.img-comp-container {
+  position: relative;
+  width: 100%;
+  padding-top: 75%; /* 4:3 aspect ratio */
+  overflow: hidden;
+}
+
+.img-comp-img {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  overflow: hidden;
+}
+
+.img-comp-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.img-comp-overlay {
+  width: 50%;
+}
+
+.img-comp-slider {
+  position: absolute;
+  z-index: 9;
+  cursor: ew-resize;
+  width: 40px;
+  height: 40px;
+  background-color: #2196F3;
+  opacity: 0.7;
+  border-radius: 50%;
+}
