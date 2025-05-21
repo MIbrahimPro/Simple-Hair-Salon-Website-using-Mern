@@ -3,6 +3,47 @@
 This is a full-stack web application for a hair salon, featuring client booking and admin management.
 
 ---
+## 💇‍♀️ About This Hair Salon Booking App
+
+Welcome to the **Hair Salon Booking Application**, a modern, responsive web app that lets clients browse services, book appointments, and gives salon staff an admin dashboard to manage everything end-to-end.
+
+### 🛠️ Technologies & Libraries
+- **Frontend:**  
+  - React.js (CRA)  
+  - Bootstrap 5 for layout, components & responsive design  
+- **Backend:**  
+  - Node.js + Express.js  
+  - MongoDB with Mongoose ORM  
+- **Tooling & Scripts:**  
+  - `npm run start-all` to install, seed DB, and launch both frontend (3000) & backend (5000)  
+  - Environment variables via `backend/.env` 
+  - More detail on ho to set up given below 
+
+### 📄 Pages & Features
+
+| Page / Section       | Description                                                                          |
+|----------------------|--------------------------------------------------------------------------------------|
+| **Home**             | Hero banner, featured services, “Book Now” call-to-action.                            |
+| **Services**         | List of all salon services (cuts, coloring, styling) with descriptions, durations & prices. |
+| **Booking Form**     | Step-by-step form for choosing service, date/time & entering client details.         |
+| **Admin Dashboard**  | Protected area where staff can:  
+  1. **View/Edit** all appointments  
+  2. **CRUD** salon services  
+  3. **Manage** client records  
+  4. **See** daily/weekly calendar at a glance |
+
+### 🔑 Admin Credentials
+
+> **Username:** `admin`  
+> **Password:** `admin123`
+
+> _(To go to admin page go to http://localhost:3000/admin/login)_
+
+---
+
+Feel free to customize styles, add more pages (e.g. “About Us”, “Contact”), or hook up real email/SMS reminders. Enjoy building your salon’s online presence!
+
+---
 
 ## 📋 Prerequisites
 
@@ -92,5 +133,32 @@ This script will:
 
 
 To stop the servers, press **Ctrl + C** (you may need to press it twice).
+
+---
+## 📸 Screenshots
+
+===
+
+<h3>Home Page</h3>
+<img src="assets/home1.png" alt="Home Page" width="600"/><br />
+<img src="assets/home2.png" alt="Home Page" width="600"/><br />
+<img src="assets/home3.png" alt="Home Page" width="600"/><br />
+<img src="assets/home4.png" alt="Home Page" width="600"/><br />
+
+<h3>Services Page</h3>
+<img src="assets/services1.png" alt="Booking Flow" width="600"/><br />
+<img src="assets/services2.png" alt="Booking Flow" width="600"/><br />
+
+<h3>Booking/Appointment form Page</h3>
+<img src="assets/booking1.png" alt="Booking Flow" width="600"/><br />
+<img src="assets/booking2.png" alt="Booking Flow" width="600"/><br />
+
+<h3>Admin Pages</h3>
+<img src="assets/admin1.png" alt="Admin Dashboard" width="600"/><br />
+<img src="assets/admin2.png" alt="Admin Dashboard" width="600"/><br />
+<img src="assets/admin3.png" alt="Admin Dashboard" width="600"/><br />
+<img src="assets/admin4.png" alt="Admin Dashboard" width="600"/><br />
+<img src="assets/admin5.png" alt="Admin Dashboard" width="600"/><br />
+
 
 ---

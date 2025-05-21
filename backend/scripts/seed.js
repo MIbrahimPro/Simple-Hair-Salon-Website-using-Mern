@@ -75,7 +75,7 @@ async function seed() {
 
     const general = new GeneralInfo({
       username: 'admin',
-      password: 'admin123!',
+      password: 'admin123',
       email: 'info@hairsalon.com',
       phoneNumber: '03009876543',
       address: '123 Salon St., Your City'
